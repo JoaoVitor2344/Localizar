@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CEP
+namespace ConsultaCEP
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CEP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLocalizar());
+            Application.Run(new FrmConsultarCEP());
         }
     }
 }
